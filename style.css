@@ -20,7 +20,8 @@ button {
 }
 
 img {
-    width: 380px;
+    width: 480px;
+    height: 280px;
     border-radius: 16px;
 }
 
@@ -37,41 +38,46 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 15px;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: #1F2937;
+    padding: 0px 150px 50px 150px;
+    color: #F9FAF8;
+}
+
+.primary-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .logo {
     font-weight: 700;
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 .links {
     display: flex;
     align-items: center;
     gap: 16px;
+    color: #E5E7EB;
 }
 
 .secondary-header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: start;
-    font-size: 15px;
-    padding: 20px;
+    font-size: 18px;
 }
 
-.secondary-info {
+.secondary-text {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 10px;
-    text-align: justify;
-    width: 400px;
-    padding: 35px;
+    margin-right: 20px;
+    width: 300px;
 }
 
 .info {
